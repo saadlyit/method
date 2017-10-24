@@ -1,0 +1,20 @@
+<Window x:Class="Method.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Method"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="53,61,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="23" Margin="321,61,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="buttonplus" Content="Add" HorizontalAlignment="Left" Margin="53,140,0,0" VerticalAlignment="Top" Width="75" Click="buttonplus_Click"/>
+        <Button x:Name="buttonsubtract" Content="subtract" HorizontalAlignment="Left" Margin="321,140,0,0" VerticalAlignment="Top" Width="75" Click="buttonsubtract_Click"/>
+        <Button x:Name="buttondivide" Content="divide" HorizontalAlignment="Left" Margin="53,229,0,0" VerticalAlignment="Top" Width="75" Click="buttondivide_Click"/>
+        <Button x:Name="buttonmultiply" Content="multiply" HorizontalAlignment="Left" Margin="321,229,0,0" VerticalAlignment="Top" Width="75" Click="buttonmultiply_Click"/>
+        <Label x:Name="label" Content="fistnumber" HorizontalAlignment="Left" Margin="53,29,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="second number" HorizontalAlignment="Left" Margin="321,29,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
